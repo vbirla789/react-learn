@@ -38,8 +38,8 @@ export default function Board() {
     <>
       <div>{status}</div>
       <div>
-        <Square value={squares[3]} onSquareClick={() => handleClick(0)} />
-        <Square value={squares[3]} onSquareClick={() => handleClick(1)} />
+        <Square value={squares[1]} onSquareClick={() => handleClick(0)} />
+        <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
         <Square value={squares[3]} onSquareClick={() => handleClick(2)} />
       </div>
       <div>
